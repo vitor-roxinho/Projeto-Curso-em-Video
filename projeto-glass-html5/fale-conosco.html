@@ -3,8 +3,8 @@
 <head>
     <meta charset=utf-8/>
     <title>Projeto Glass</title>
-    <link rel="stylesheet" type="text/css" href='_css/estilo.css'/>
-    <link rel="stylesheet" type="text/css" href="_css/form.css"/>
+        <link rel="stylesheet" type="text/css" href='_css/estilo.css'/>
+        <link rel="stylesheet" type="text/css" href="_css/form.css"/>
     <script language="javascript" src="_javascript/funcoes.js"></script>
     <script>
        function calc_total() {
@@ -16,24 +16,24 @@
 </head>
 <script src="_javascript/funcoes.js"></script>
 <body>
-<div id=interface>
-    <header id=cabecalho> 
-        <hgroup>
-        <h1>Google Glass</h1>
-        <h2>A revolução do Google está chegando</h2>
-        </hgroup>
-        <img id="icone" src=_imagens/contato.png>
-    <nav id="menu">
-    <h1><i>Menu Principal</i></h1>
-    <ul type="square">
-        <li onmouseover="mudarFoto('_imagens/home.png')" onmouseout="mudarFoto('_imagens/contato.png')"><a href="index.html">Home</a></li>
-        <li onmouseover="mudarFoto('_imagens/especificacoes.png')" onmouseout="mudarFoto('_imagens/contato.png')"><a href="specs.html">Especificações</a></li>
-        <li onmouseover="mudarFoto('_imagens/fotos.png')" onmouseout="mudarFoto('_imagens/contato.png')"><a href="fotos.html">Fotos</a></li>
-        <li onmouseover="mudarFoto('_imagens/multimidia.png')" onmouseout="mudarFoto('_imagens/contato.png')"><a href="multimidia.html">Multimídia</a></li>
-        <li onmouseover="mudarFoto('_imagens/contato.png')" onmouseout="mudarFoto('_imagens/contato.png')"><a href="fale-conosco.html">Fale conosco</a></li>
-    </ul>
-    </nav>
-    </header>
+    <div id=interface>
+        <header id=cabecalho> 
+            <hgroup>
+            <h1>Google Glass</h1>
+            <h2>A revolução do Google está chegando</h2>
+            </hgroup>
+            <img id="icone" src=_imagens/contato.png>
+        <nav id="menu">
+        <h1><i>Menu Principal</i></h1>
+            <ul type="square">
+                <li onmouseover="mudarFoto('_imagens/home.png')" onmouseout="mudarFoto('_imagens/contato.png')"><a href="index.html">Home</a></li>
+                <li onmouseover="mudarFoto('_imagens/especificacoes.png')" onmouseout="mudarFoto('_imagens/contato.png')"><a href="specs.html">Especificações</a></li>
+                <li onmouseover="mudarFoto('_imagens/fotos.png')" onmouseout="mudarFoto('_imagens/contato.png')"><a href="fotos.html">Fotos</a></li>
+                <li onmouseover="mudarFoto('_imagens/multimidia.png')" onmouseout="mudarFoto('_imagens/contato.png')"><a href="multimidia.html">Multimídia</a></li>
+                <li onmouseover="mudarFoto('_imagens/contato.png')" onmouseout="mudarFoto('_imagens/contato.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+        </ul>
+        </nav>
+        </header>
     <section id="corpo-full">
         <article id="noticia-principal">
             <header id="cabecalho-antigo">
@@ -55,16 +55,16 @@ Atualizado em 01/Maio/2013
     <p><label for="cNome"> Nome: </label><input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome completo:"/></p>
     <p><label for="cSenha"> Senha:</label><input type="text" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 digitos"/> </p>
     <p><label for="cEmail"> E-mail:</label><input type="email" name="tEmail" id="cEmail" size="20" maxlength="40"/>  </p>
-    <fieldset id="sexo"><legend> Sexo:</legend>
+ <fieldset id="sexo"><legend> Sexo:</legend>
         <input type="radio" name="tSexo" id="cMas"/> <label for="cMas"> Masculino</label></br> 
         <input type="radio" name="tSexo" id="cFem"/> <label for="cFem"> Feminino</label></fieldset>
    <p><label for="cDate"> Data de Nascimento:</label><input type="date" name="tDate" id="cDate"/> </p>
 </fieldset>
 
 <fieldset id="endereco"><legend> Endereço do Usuário </legend>
-    <p><label for="cRua">Logradouro:</label><input type="text" name="tRua" id="cRua" size="30" maxlength="80" placeholder="Rua, Av, Trav..."/> </p>
-    <p><label for="cNum"> Número:</label><input type="number" name="tNum" id="cNum" min="0" max="99999"/> </p>
-    <p><label for="cEst"> Estado:</label>
+        <p><label for="cRua">Logradouro:</label><input type="text" name="tRua" id="cRua" size="30" maxlength="80" placeholder="Rua, Av, Trav..."/> </p>
+        <p><label for="cNum"> Número:</label><input type="number" name="tNum" id="cNum" min="0" max="99999"/> </p>
+        <p><label for="cEst"> Estado:</label>
     <select name="tEst" id="cEst">
         <optgroup label="Região Sudeste">
             <option value="SP">São Paulo</option>
@@ -78,14 +78,14 @@ Atualizado em 01/Maio/2013
             <option value="RS">Rio Grande do Sul</option>
         </optgroup>
     </select></p>
-    <p><label for="cCid"> Cidade:</label>
+        <p><label for="cCid"> Cidade:</label>
     <input type="text" name="tCit" id="cCid" maxlength="40" size="20" placeholder="Informe a cidade" list="cidades"></p>
-    <datalist id="cidades">
-        <option value="Rio de Janeiro"></option>
-        <option value="Nova Iguaçu"></option>
-        <option value="Niterói"></option>
-        <option value="Belford Roxo"></option>
-    </datalist>
+        <datalist id="cidades">
+            <option value="Rio de Janeiro"></option>
+            <option value="Nova Iguaçu"></option>
+            <option value="Niterói"></option>
+            <option value="Belford Roxo"></option>
+        </datalist>
 </fieldset>
 
 <fieldset id="mensagem"><legend> Mensagem do Usuário </legend>
